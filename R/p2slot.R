@@ -1,7 +1,7 @@
 #' Create Histogram,boxplot and numeric summary
 #' @export
 #' @param x numeric variable
-p1 = function(x){
+p2 = function(x){
   par(mfrow = c(1,2))
   hist(x, col = rainbow(30))
   boxplot(x,col="green")
